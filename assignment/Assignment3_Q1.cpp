@@ -6,7 +6,7 @@ class Cylinder{
     static const  double PI ; //without inline it is showing error
     public:
     Cylinder(){
-        this->height = 0;
+        this->height = 12;
         this->radius = 0;
     }
     Cylinder(double height , double radius):height(height),radius(radius){
